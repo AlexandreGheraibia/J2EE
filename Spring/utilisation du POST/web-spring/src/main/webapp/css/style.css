@@ -1,0 +1,43 @@
+body{
+	font-family:Impact;
+	font-weight: bold;
+}
+.container{
+	
+	background: linear-gradient(to top, #FF80FF 0%,#0080FF 100%);
+}
+.maclasse{
+	left:1vw;
+	
+}
+.w3-panel{padding-top:0px;
+		  margin-top:0px;
+		  text-align:center;
+		  
+}
+
+h3{	padding-bottom:2vh;
+	margin:0px;
+	text-align:center;
+	text-justify:center;
+	}
+h4{
+		font-weight: bold;
+}
+.well{
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.8);
+	color:#000000;
+}
+
+#title{
+	padding:0px;
+	padding-top:2vh;
+	margin:0px;
+	font-weight: bold;
+}
+input,label{text-align:center;}
+input[type='number'],input[type='text']{
+	text-align:right;
+}
+
