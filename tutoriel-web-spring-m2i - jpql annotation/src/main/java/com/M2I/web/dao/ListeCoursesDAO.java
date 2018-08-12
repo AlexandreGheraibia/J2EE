@@ -47,7 +47,7 @@ public class ListeCoursesDAO implements IListeCoursesDAO {
 	 } 
 	  public void modifierCourse(final Course pCourse) {
 
-			final Query lQuery=entityManager.createNamedQuery("Course.setCouseQuantityById");
+			final Query lQuery=entityManager.createNamedQuery("Course.setCourseQuantityById");
 			lQuery.setParameter("id",pCourse.getId());
 			lQuery.setParameter("quantite", pCourse.getQuantite());
 			final int lRowCount =lQuery.executeUpdate();
