@@ -1,0 +1,11 @@
+based on Christophe GERMAIN's tutorial
+ 
+First create a spring legacy project 
+In a second time choose the project type. In our case it's
+it's a spring web maven.
+
+At this step the project is just a simple web project manage by
+maven and which accepts the spring framework.
+
+CF Tuto Spring sous STS.v4 page 5-6
+ 
