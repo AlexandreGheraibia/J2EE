@@ -21,7 +21,7 @@ Maven make the war(compile the source) and install it in the local repository.
 which was accessible by other application.
 
 on a real server, not on sts
-for deploy it you will push the war on web-content or web-app
+for deploy it you will put the war in web-content or web-app
 
 
 
