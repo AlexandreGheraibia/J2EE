@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @NamedQueries({
     @NamedQuery(name="Course.findAll",
                 query="SELECT c FROM Course c"),
-    @NamedQuery(name="Course.setCouseQuantityById",
+    @NamedQuery(name="Course.setCourseQuantityById",
                 query="UPDATE Course as c SET c.quantite=:quantite WHERE c.id = :id"),
 }) 
 @Table(name="LISTECOURSES") 
